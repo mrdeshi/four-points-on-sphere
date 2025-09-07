@@ -24,21 +24,27 @@ $$
 
 The final step calculates the conditional probability that the fourth point falls within the hemisphere bounded by the plane of the first three points, which is the necessary condition for the tetrahedron to contain the center, that is the area of the hemisphere divided by the surface of the sphere:
 
-$$\frac{A_{h}}{4\pi r^2}$$
+$$
+\frac{A_{h}}{4\pi r^2}
+$$
+
 -> Using Girard's Theorem: 
 the area (T) of a spherical triangle, with interior angles a,b and c, is given by $T = r^2 (a + b + c - \pi)$.
 
 We can easily see that a,b and c are respectively $\alpha$, $\theta$ and $\phi$.
 
 So,
+
 $$
 f(P_{4})= \frac{r^2(\alpha + \theta + \phi - \pi)}{4\pi r^2}
 $$
 
 Now, since the events are independent we use the **multiplication rule of probability**. This rule is used to find the probability of multiple events happening in sequence.
 
-$$p=f(P_{1} \cap P_{2} \cap P_{3} \cap P_{4})=\prod_{i=1}^{4}f(P_{i})
-=f(P_{1}) \cdot f(P_{2})\cdot f(P_{3})\cdot f(P_{4})$$
+$$
+p=f(P_{1} \cap P_{2} \cap P_{3} \cap P_{4})=\prod_{i=1}^{4}f(P_{i})
+=f(P_{1}) \cdot f(P_{2})\cdot f(P_{3})\cdot f(P_{4})
+$$
 
 Now we have that for four determined points in a sphere the probability that the tetrahedron contains the centre of the sphere is
 
