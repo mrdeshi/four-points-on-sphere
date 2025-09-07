@@ -7,9 +7,7 @@ This demonstration addresses the classic geometric probability problem of determ
 First we anchor the first point, since we can imagine the sphere to be movable vertically and horizontally, we can place it on the top. The probability to take a random point on a sphere is 1. So, for now,
 $$f(P_{1}) = 1$$
 then we anchor a second point, now we can move the sphere only horizontally, in order to have the two points aligned, now we have to decide the vertical distance from the first point, this create a dependent variable $\alpha$ witch range is from 0 to $\pi$. Then,
-$$
-f(P_{2}) = \frac{d\alpha r}{\pi r}
-$$
+$$f(P_{2}) = \frac{d\alpha r}{\pi r}$$
 then we anchor the third point, now we can't move the sphere anymore because we would create different configurations, we use 2 new variables $\theta$ from 0 to $\pi$ and $\phi$ from 0 to $2\pi$, since the circle passing through the first two points determine a symmetry the range of $\phi$ become from 0 to $\pi$. Now,
 $$
 f(P_{3}) =\frac{d\theta r}{\pi r}\cdot \frac{d\phi}{\pi r}
