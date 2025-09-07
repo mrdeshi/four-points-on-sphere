@@ -5,9 +5,7 @@ This demonstration addresses the classic geometric probability problem of determ
 ## $Proof$
 
 First we anchor the first point, since we can imagine the sphere to be movable vertically and horizontally, we can place it on the top. The probability to take a random point on a sphere is 1. So, for now,
-$$
-f(P_{1}) = 1  
-$$
+$$f(P_{1}) = 1$$
 then we anchor a second point, now we can move the sphere only horizontally, in order to have the two points aligned, now we have to decide the vertical distance from the first point, this create a dependent variable $\alpha$ witch range is from 0 to $\pi$. Then,
 $$
 f(P_{2}) = \frac{d\alpha r}{\pi r}
